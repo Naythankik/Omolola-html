@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: rgb(71, 148, 224);
+}
+
+/* styling for the first division */
+div.about-me {
+  background: none;
+  padding: 10px;
+  margin: 10px auto;
+  width: 98%;
+  border-radius: 10px;
+}
+
+h2,
+h3 {
+  color: gold;
+  text-decoration: overline;
+  text-align: center;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+p.description,
+p.details {
+  color: white;
+  margin: 10px;
+  background: none;
+  padding: 10px;
+  font-size: 1.8em;
+  font-family: serif;
+}
+p > span.name {
+  color: rgb(42, 236, 243);
+  font-size: 1.3em;
+}
+
+div.programming {
+  background: none;
+  padding: 10px;
+  margin: 10px auto;
+  width: 98%;
+  border-radius: 10px;
+}
+span.head {
+  font-weight: bold;
+  color: rgb(42, 236, 243);
+}
+
+p.details {
+  color: antiquewhite;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+span.delete {
+  text-decoration: line-through;
+  color: red;
+  font-style: italic;
+}
+span.insert {
+  text-decoration: underline;
+  color: green;
+  font-style: oblique;
+}
+span.code {
+  font-style: italic;
+  color: rgb(187, 96, 96);
+}
